@@ -12,4 +12,6 @@ fn main() {
     day1::day_1_part_2();
 
     day2::puzzle();
+    day3::puzzle();
+    day4::puzzle();
 }
