@@ -2,8 +2,6 @@ use itertools::Itertools;
 
 use crate::tools::fileparser;
 
-type Section = (i32, i32);
-
 pub fn puzzle() {
   let data = fileparser::read_file_string("src/challenges/day4/input.txt").unwrap();
   let part_1 = data.split("\n")
